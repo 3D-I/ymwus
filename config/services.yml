@@ -1,0 +1,12 @@
+services:
+    mickroz.ymwus.listener:
+        class: mickroz\ymwus\event\listener
+        arguments:
+            - '@config'
+            - '@dbal.conn'
+            - '@user'
+            - '@auth'
+            - '@controller.helper'
+            - '@template'
+        tags:
+            - { name: event.listener }
