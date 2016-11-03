@@ -1,7 +1,7 @@
 {
     "name": "mickroz/ymwus",
     "type": "phpbb-extension",
-    "description": "With the You, me, we and us BBCode you can use tags that will show viewers name, posters name, posters and viewers name, boardname in the posts.",
+    "description": "Replaces [me] with poster, [you] with reader, [we] with both, and [us] with forum name.",
     "homepage": "https://github.com/Mickroz/phpbb-ymwus",
     "version": "1.0.0-dev",
     "time": "2016-10-30",
